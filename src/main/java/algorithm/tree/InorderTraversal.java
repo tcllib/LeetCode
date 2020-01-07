@@ -4,6 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
+/**
+ * [94] Binary Tree Inorder Traversal
+ * The solution can be used to [98] Validate Binary Search Tree and [230] Kth Smallest Element in a BST
+ */
 public class InorderTraversal {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> output = new ArrayList();
